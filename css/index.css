@@ -1,0 +1,500 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    padding: 0; margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;font-size: 20px;
+}
+.container{
+    width: 1140px;
+   margin: 0 auto;
+    
+}
+
+header{ 
+width: 100%;
+float: left;
+padding: 15px 0px;background-color: #0175B3; color: white;
+}
+
+.phn{
+    width: 30%;
+    float: left;
+}
+.phn i:hover{
+   color: magenta;
+    transition: 0.5s;
+}
+.mail{
+    width: 30%;
+    float: left;
+}
+.mail i:hover{
+    color: magenta;transition: 0.5s;
+}
+.social{
+    width: 30%;
+    float: right;
+    
+}
+.social a{
+    padding-right: 25px  ;
+    color: white;
+    font-size: 25px;
+    
+}
+.social a:hover{
+   color: magenta;transition: 0.5s;
+  
+}
+
+.mainMenu{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: right;
+    padding-top: 35px;
+}
+.menu nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 25px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+
+.three{
+   width: 100%;
+    float: left;
+    background-image: url(../img/slide2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 550px;
+    
+}
+.THREE{
+    padding-top: 200px;
+   
+}
+.THREE h1{
+    color: #0385CB ; font-weight: bold; font-size: 50px;
+}
+.THREE p{
+    color: #D2D2D6; font-size: 18px;
+}
+.THREE button{
+  background-color: #0385CB;
+  color: white; font-weight: bold; font-size: 18px;
+  padding: 5px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.THREE button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.welcome h1{
+    
+    text-align: center;
+    color: #0385CB ;
+}
+.hrone{
+   width: 20%;
+   padding-top: 15px;
+   padding-left: 430px;
+   padding-bottom: 5px; 
+}
+.hrtwo{
+    width: 10%;
+    padding-left: 490px;
+    padding-bottom: 15px;
+}
+
+.para p{
+    text-align: center;
+    
+}
+.circle{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.circle i:first-child{
+    background-color: #0175B3;
+}
+.circle i {
+    
+    font-size: 8px;
+    background-color: #6D6E70;
+}
+.hand{
+    width: 100%;
+    background-image: url(../img/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px; 
+}
+.consult{ 
+    color: white; text-align: center; padding-top: 200px;
+}
+.consult span{
+      font-size: 30px;
+}
+.consult h1{
+   font-size: 70px;
+}
+.btn{
+    background-color: #0385CB;
+  color: white; font-weight: bold; font-size: 18px;
+   padding: 8px 20px;
+   margin-top: 190px ;
+   margin-left: 470px ;
+  cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.team{
+    padding-top: 40px; 
+    text-align: center; color: #0385CB;
+}
+
+.teamMates{
+    background-color:#D8D8DA;
+    overflow: hidden;
+}
+.teamMatesInfo{
+    width: 100%;
+    float: left; 
+    margin-bottom: 50px;
+    
+    
+}
+.teamMatesInfo div{
+    height: 390px; 
+}
+.teamMatesInfo div img{
+    display: block;padding-left: 40px; padding-top: 10px;
+   
+}
+
+.teamMatesInfo1{
+     width: 20%;
+     float: left;
+     background-color: white;
+     margin-top: 50px;
+     margin-right: 15px;     
+}
+
+.teamMatesInfo div b{
+    color: #2387BD;
+    font-weight: bold;
+    font-size: 25px; padding-left: 40px;
+}
+.teamMatesInfo div p{
+ 
+    padding: 18px 20px;
+    font-size: 16px; 
+}
+.teamMatesInfo2{
+    width: 20%;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 15px;
+    
+}
+
+.teamMatesInfo3{
+    width: 20%;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 15px;
+    
+}
+
+.teamMatesInfo4{
+    width: 20%;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 15px;
+    
+}
+
+.ourService{
+    padding-top: 40px;
+    text-align: center; color: #2387C3;
+}
+
+
+.servicesTopicsInfo{
+    width: 100%;
+    float: left; 
+    margin-bottom: 50px;
+    
+    
+}
+.servicesTopicsInfo div{
+    height: 280px; border: 1px solid black; padding-top: 15px;padding-bottom: 15px;
+}
+.servicesTopicsInfo1{
+    width: 20%;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 15px;     
+}
+
+.servicesTopicsInfo div b{
+   color: #2387BD;
+   font-weight: bold; display: inline;
+   font-size: 25px;
+   padding-left: 10px;
+}
+.servicesTopicsInfo div i{
+    font-size: 35px; padding-left: 15px;
+}
+.servicesTopicsInfo div p{
+
+   padding: 18px 20px;
+   font-size: 16px; 
+}
+.servicesTopicsInfo2{
+   width: 20%;
+   float: left;
+   background-color: white;
+   margin-top: 50px;
+   margin-right: 15px;
+   
+}
+
+.servicesTopicsInfo3{
+   width: 20%;
+   float: left;
+   background-color: white;
+   margin-top: 50px;
+   margin-right: 15px;
+   
+}
+
+.servicesTopicsInfo4{
+   width: 20%;
+   float: left;
+   background-color: white;
+   margin-top: 50px;
+   margin-right: 15px;
+   
+}
+
+.circle1{
+    width: 100%; float: left;
+    padding-left: 500px;padding-bottom: 50px;
+}
+.circle1 i:first-child{
+    background-color: #0175B3;
+}
+.circle1 i {
+   
+    font-size: 10px;
+    background-color: #6D6E70;
+}
+
+.client{
+    padding-top: 90px; color: white;
+    width: 100%;
+    float: left;
+    height: 600px;
+    background-image: url(../img/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.clientSay h1{
+    padding-left: 90px; font-size: 30px; font-weight: bold;
+ 
+    
+}
+
+.clientReview img{
+   
+    margin-top: 25px;
+   margin-left: 150px;
+   border-radius: 60px;
+}
+.clientReview p{
+    width: 40%; 
+    text-align: center;
+    font-size: 18px;
+    
+}
+ .clientBtn{
+    width: 10%;
+    float: left;
+    background-color: #0385CB;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 7px 0px;
+    margin-left: 150px;
+    cursor: pointer;
+    
+}
+.clientBtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.hrOne{
+    width: 20%;
+   padding-top: 15px;
+   padding-left: 150px;
+   padding-bottom: 5px; 
+}
+.hrTwo{
+    width: 10%;
+    padding-left: 210px;
+    padding-bottom: 15px;
+}
+
+.abtUs{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact{
+    width: 100%;
+    float: left;
+    background-color: #1A4876;
+    color: white;
+}
+
+.First{
+    margin-right: 25px;
+    margin-top: 50px;
+    width: 40%;
+    float: left;
+}
+.First span{
+    font-size: 15px;
+}
+
+.Second{
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+}
+.SecondOneHalf{
+    width: 40%;
+    float: left;
+}
+.SecondOneHalfs{
+    width: 40%;
+    float: left;
+}
+.SecondTwoHalf{
+    width: 40%;
+    float: left;
+}
+.SecondTwoHalfs{
+    width: 40%;
+    float: left;
+}
+
+.SecondOneHalf input{
+     font-size: 15px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     padding-right: 15px;
+}  
+.SecondOneHalfs input{
+    font-size: 15px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     padding-right: 15px;
+     margin-bottom: 15px;
+}
+.SecondTwoHalf input{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+    
+}
+.SecondTwoHalfs input{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+.Second textarea{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.Second button{
+    float: left;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.Second button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.my_foot{
+
+    width: 100%;
+    height: 50px;
+    background-color: #4C4C4C;
+    float: left;
+  
+}
+.my_foot1{
+    float: left;
+    color: #F4F4F4;
+    width: 50%;
+   padding-top: 10px;
+    padding-left: 380px;
+    
+}
+.my_foot2{
+    float: left;
+    color: #F4F4F4;
+    padding-top: 10px;
+    
+}
